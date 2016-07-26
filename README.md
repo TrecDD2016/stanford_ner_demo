@@ -1,6 +1,8 @@
 # Stanford NER
 Stanford NER 的示例代码，在Stanford NER的包里也可以找到。
 
+这里是完整的包，如果只想看示例代码的话，可以就看NERDemo.java，并下载几个jar包和要使用的分类器就好。本包有150M左右，其中大部分的空间都被classifiers文件夹中的四个分类器占去。
+
 NER（Named Entity Recognizer）：命名实体分析器，用于把具有实际意义的实体（人名、地名、专有名词等）识别出来。Stanford Named Entity Recognizer是一个斯坦福大学的用Java实现的分析器。通过它可以进行命名实体的标识，也可以自己定义一个特征提取器。Stanford NER对于英语的人名、组织和地名的识别能力非常强。Stanford NER包括命令行启动、服务器和jar包(最新版本SNER需要Java1.8或者更新版本，v3.4.1支持1.6和1.7)形式的实现。Stanford NER对于文本数据和HTML数据都可以进行识别，通过使用预置的分类器，可以对英语中的专有组织、人名和地名做出标记，但是其他的单词都不会被识别。如果想要对自己定义的单词或者词组进行识别，就需要自定义分类器。通过形如
 
 ```
